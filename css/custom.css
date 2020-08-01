@@ -1,0 +1,161 @@
+/*==============Global styling======================*/
+body {
+    font-family: 'hanimation', sans-serif;
+    background-image: url(https://tracker.3arbya.info/templates/bootstrap/assets/images/body.jpg);
+}
+input,button{
+    border: none;
+}
+img{
+    width: 100%;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{list-style: none;  }
+.SectionHead h3 {
+    display: inline-block;
+    margin-top: 32px;
+    padding-bottom: 20px;
+    min-width: 270px;
+    border-bottom: 4px solid #dc3545;
+    color: #dc3545;
+}
+.icon:before{content:'';display:inline-block;vertical-align:middle;}
+.eggs-icon:before{content:'';width:125px;height:78px;background:url(../img/spirtes.png) -12px -13px;}
+.egg-icon:before{content:'';width:41px;height:58px;background:url(../img/spirtes.png) -152px -13px;}
+.check-icon:before{content:'';width:91px;height:105px;background:url(../img/spirtes.png) -205px -13px;}
+.calenderEgg-icon:before{content:'';width:67px;height:64px;background:url(../img/spirtes.png) -314px -13px;}
+
+.icon-Block i {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 125px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.white{color: white !important;  }
+.bg-red{background-color: #dc3545 !important;color: white;  }
+.carousel-inner{
+    height: 70vh;
+}
+.carousel-item, .carousel-inner img{
+    height: 100%;}
+.farm{
+    background-image: url('../img/chicken.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.farm .overlay{
+    background-color: rgba(233, 242, 211, 0.8);
+}
+/*============= about styling ==============*/
+.icons{padding: 80px 10px;  }
+.icon-item{border: 1px solid rgb(170, 167, 167);border-radius: 10px;padding: 20px 10px;}
+.farm{background-image: url('../img/chicken.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
+.farm .overlay{
+    background-color: rgba(233, 242, 211, 0.8);
+}
+/*============= /about styling ==============*/
+
+/*============ contact styling ==================*/
+.farm{background-image: url('../img/chicken.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
+.phone span i{font-size: 2rem;}
+.contact-items{display: flex;justify-content: space-between;}
+iframe{width: 100%; height: 100%;}
+.location{height:400px}
+form input{height:50px;padding: 5px!important;border: 1px solid rgb(168, 167, 167);border-radius: 5px;margin-bottom: 10px;}
+/*============ /contact styling ==================*/
+
+section.form form{
+    text-align: left;
+    position: relative;
+}
+section.form form input{
+    padding: 5px;
+    width: 35%;
+    height: 55px;
+    border: none;
+}
+section.form form button{
+    padding: 5px;
+    width: 50px;
+    height: 55px;
+    border: none;
+    position: absolute;
+    left: 0;
+}
+section.eggs{
+    /* background-image: url('../img/bg2.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+section.eggs .overlay{
+    background-color: rgba(221, 219, 219, 0.8);
+}
+section .egg-item img{
+    height: 80%;
+}
+section .egg-item{
+position: relative;
+}
+section .egg-item .egg-price{
+    position: absolute;
+    background-color: #dc35459e;
+    top: 20px;
+    left: 40px;;
+}
+.block-box img{
+    width: 128px;
+    height: 128px;
+    margin: 15px 0;
+}
+footer{background-color: #1c2023;}
+.copy-right{background-color: #15181a;}
+.navigation{display: flex;justify-content: flex-start;}
+.contact-item p {font-size: 14px;}
+.links-item{display: flex;justify-content: flex-start;position: relative;}
+.links-item::after{content: '';width: 84%;background-color: #3e3a3a;height: 1px;position: absolute;top: 92%;}
+.links-item h6 , .links-item span{margin: 10px;}
+.links-item:hover h6 {transform: translatex(-10px); transition: 0.3s;}
+.links-item:hover h6 a{color:#dc3545!important; transition: 0.3s}
+table{  border: 1px solid #cfa9a9;  }
+div.tables{display: none;}
+/*====== media screen=========*/
+@media(max-width:770px){
+    section.form form input{
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+    }
+    .links-item{
+        justify-content: center;
+    }
+    .navbar ul li{
+        margin-right:0%!important;
+    }
+    .form-inline{
+        padding-right: 30px;
+    }
+    .one{
+        margin-right: 17px;
+    }
+}
+@media(max-width:575px ) {
+    .tables{
+        display:block!important;
+        opacity: 1;
+    }
+}
+
+/*====== /media screen=========*/
+
